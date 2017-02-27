@@ -8,6 +8,14 @@ p5.prototype.registerPreloadMethod('loadEmoji', p5.prototype);
 
 
 /**
+ * Set emoji path
+ */
+ 
+p5.prototype.setEmojiPath = function(path) {
+	this.EMOJI_IMAGES_PATH = path;
+}
+
+/**
  * Preload emoji image
  */
 p5.prototype.loadEmoji = function(symbol, success, fail) {

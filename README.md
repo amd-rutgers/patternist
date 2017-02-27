@@ -5,6 +5,7 @@ Use p5.js and emojis to create a 2d pattern.
 
 * Use at least 5 emoji symbols
 * Use at least 1 `for` or `while` loop
+* If using the examples as reference, **no copy/pasting of code** please! You shoud write it out yourself.
 
 
 Including emojis
