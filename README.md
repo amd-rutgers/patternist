@@ -1,7 +1,7 @@
 Patternist
 ==========
 
-Use p5.js and emojis to create a 2d pattern.
+Use p5.js and emojis to create a 2d composition.
 
 * Use at least 5 emoji symbols
 * Use at least 1 `for` or `while` loop
