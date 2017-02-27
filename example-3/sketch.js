@@ -9,6 +9,7 @@ var increment;
 function preload() {
   setEmojiPath('../assets/emoji/');  
   
+  // load our trees
   evergreen = loadEmoji('🌲');
   deciduous = loadEmoji('🌳');
   palm = loadEmoji('🌴');
@@ -26,18 +27,33 @@ function setup() {
 
 // this is where the magic happens
 function draw() {
+  // we want to use degrees for angles, not radians
   angleMode(DEGREES);
   
+  // set our degrees to 0
   deg = 0;
   increment = 30;
   
+  // move to 1/4 of the canvas width, 1/2 canvas height
   translate(width/4, height/2);
+  
+  // keep repeeting whild deg is less than 360
   while(deg < 360) {
+    
+    // rotate the matrix by the increment
     rotate(increment);
+    // draw the evergreen emoji within transform matrix
     drawEmoji(evergreen, 0, 10, 50, 50);
+    // update degrees
     deg = deg + increment;
   }
+  
+  // reset back to normal!
   resetMatrix();
+  
+  
+  // same thing below, with different
+  // increment and position
   
   deg = 0;
   increment = 60;  
@@ -50,6 +66,9 @@ function draw() {
   }
   resetMatrix();
 
+  // same thing below, with different
+  // increment and position  
+  
   deg = 0;
   increment = 120;    
   
