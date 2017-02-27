@@ -62,5 +62,5 @@ Examples
 ---------
 
 * [Example 1](https://amd-rutgers.github.io/patternist/example-1/) - Basic looping ([code](example-1/sketch.js))
-* [Example 2](https://amd-rutgers.github.io/patternist/example-2/) - 2D loop and randomization ([code](example-2/sketch.js))
-* [Example 3](https://amd-rutgers.github.io/patternist/example-2/) - Radial pattern ([code](example-3/sketch.js))
+* [Example 2](https://amd-rutgers.github.io/patternist/example-2/) - 2D `for` loop and randomization ([code](example-2/sketch.js))
+* [Example 3](https://amd-rutgers.github.io/patternist/example-3/) - `while` loop and radial pattern ([code](example-3/sketch.js))
