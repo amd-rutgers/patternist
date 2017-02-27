@@ -1,10 +1,7 @@
-var poo;
-var car;
+// declare variables here
 
 function preload() {
-  poo = loadEmoji('💩');
-  car = loadEmoji('🚙');
-  gun = loadEmoji('🔫');
+  // preload emojis here
 }
 
 // get things set up here
@@ -17,30 +14,10 @@ function setup() {
 
 // this is where the magic happens
 function draw() {
-  angleMode(DEGREES);
-  
-  translate(width/2, height/2);
-  
-  
-  for(var i = 0; i < 10; i++) {
-    rotate(36);
-    console.log('draw poo', i);
-    drawEmoji(poo, 0, 0, 50, 50); 
-  }
-
-  
-  for(var i = 0; i < 10; i++) {
-    rotate(36);
-    console.log('draw poo', i);
-    drawEmoji(car, 50, 0, 50, 50); 
-  }
-  
-  
-  resetMatrix();
-
 
 }
 
+// adjust window size
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
