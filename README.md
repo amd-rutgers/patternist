@@ -7,6 +7,12 @@ Use p5.js and emojis to create a 2d composition.
 * Use at least 1 `for` or `while` loop
 * If using the examples as reference, **no copy/pasting of code** please! You shoud write it out yourself.
 
+Examples
+---------
+
+* [Example 1](https://amd-rutgers.github.io/patternist/example-1/) - Basic looping ([code](example-1/sketch.js))
+* [Example 2](https://amd-rutgers.github.io/patternist/example-2/) - 2D `for` loop and randomization ([code](example-2/sketch.js))
+* [Example 3](https://amd-rutgers.github.io/patternist/example-3/) - `while` loop and radial pattern ([code](example-3/sketch.js))
 
 Including emojis
 ----------------
@@ -57,11 +63,3 @@ If for some reason you need to change this structure, you can use `setEmojiPath`
 ```js
 setEmojiPath('../assets/emoji/');
 ```
-
-
-Examples
----------
-
-* [Example 1](https://amd-rutgers.github.io/patternist/example-1/) - Basic looping ([code](example-1/sketch.js))
-* [Example 2](https://amd-rutgers.github.io/patternist/example-2/) - 2D `for` loop and randomization ([code](example-2/sketch.js))
-* [Example 3](https://amd-rutgers.github.io/patternist/example-3/) - `while` loop and radial pattern ([code](example-3/sketch.js))
