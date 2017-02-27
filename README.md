@@ -8,6 +8,27 @@ Use p5.js and emojis to create a 2d pattern.
 * If using the examples as reference, **no copy/pasting of code** please! You shoud write it out yourself.
 
 
+Directory structure
+-------------------
+
+In order for this to work, you'll need to make sure the images are in the right place. By default the emoji plugin uses the following structure:
+
+```
+/
+  index.html
+  sketch.html
+  assets/
+    emoji/
+      [images...]
+
+```
+
+If for some reason you need to change this structure, you can use `setEmojiPath`:
+
+```js
+setEmojiPath('../assets/emoji/');
+```
+
 Including emojis
 ----------------
 
@@ -39,3 +60,7 @@ function draw() {
 
 Examples
 ---------
+
+* [Example 1](https://amd-rutgers.github.io/patternist/example-1/) - Basic looping ([code](example-1/sketch.js))
+* [Example 2](https://amd-rutgers.github.io/patternist/example-2/) - 2D loop and randomization ([code](example-2/sketch.js))
+* [Example 3](https://amd-rutgers.github.io/patternist/example-2/) - Radial pattern ([code](example-3/sketch.js))
