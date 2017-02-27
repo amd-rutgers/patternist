@@ -14,6 +14,15 @@ Examples
 * [Example 2](https://amd-rutgers.github.io/patternist/example-2/) - 2D `for` loop and randomization ([code](example-2/sketch.js))
 * [Example 3](https://amd-rutgers.github.io/patternist/example-3/) - `while` loop and radial pattern ([code](example-3/sketch.js))
 
+Resources
+---------
+* [Emoji Cheat Sheet](http://www.iemoji.com/emoji-cheat-sheet/all) allows you to copy/paste emoji symbols
+* [p5.js](https://p5js.org/reference/)
+* JavaScript loops
+  * [`for` loop](https://www.w3schools.com/js/js_loop_for.asp)
+  * [`while` loop](https://www.w3schools.com/js/js_loop_while.asp)
+* [TextWrangler](http://www.barebones.com/products/TextWrangler/) is a bit better for displaying emojis
+
 Including emojis
 ----------------
 
